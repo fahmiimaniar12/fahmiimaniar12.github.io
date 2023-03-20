@@ -71,7 +71,6 @@ hr {
 
 .card {
     border-radius: 0;
-    /* height: 100%; */
     width: 400px;
     border: none;
 }
@@ -124,11 +123,10 @@ hr {
     }
 
     .card-container {
+        height: fit-content;
         margin-top: 8rem;
-        margin-bottom: 20rem;
-        display: flex;
-        justify-content: center;
-        align-items: normal;
+        margin-bottom: 5rem;
+        display: block;
     }
 
     .card {
